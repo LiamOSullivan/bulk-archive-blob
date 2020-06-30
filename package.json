@@ -1,0 +1,16 @@
+{
+    "name": "bulk-archive-blob",
+    "version": "1.0.0",
+    "description": "Store bulk blob data to Azure Blob storage using the @azure/storage-blob SDK ver 12",
+    "main": "bulk-archive-blob.js",
+    "scripts": {
+        "start": "node bulk-archive-blob.js"
+    },
+    "author": "Liam O'Sullivan",
+    "license": "MIT",
+    "dependencies": {
+        "@azure/storage-blob": "^12.0.0",
+        "@types/dotenv": "^4.0.3",
+        "dotenv": "^6.0.0"
+    }
+}
